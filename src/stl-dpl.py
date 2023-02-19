@@ -28,7 +28,7 @@ def parse_args():
     parser.add_argument(
         "GM",
         type=float,
-        help="the product of the gravitational constant (G) and the mass (M) of the astronomical body, aka μ"
+        help="the standard gravitational parameter of the astronomical body, aka μ"
     )
     parser.add_argument(
         "--R",
