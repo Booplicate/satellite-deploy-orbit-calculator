@@ -33,5 +33,13 @@ Result:
 - with the body radius 600 km
 - and the body GM (standard gravitational parameter or μ) 3.5316*10^12 m^3/s^2
 
+### Important
+
+In case you get a negative periapsis, it means your apoapsis is too high and thereby your orbital period is too long to be able to deploy that number of satellites. Possible solutions include:
+- lower target apoapsis
+- it may be possible to skip X loops to let the previous satellites pass by. Careful, your orbits may desync if your math is incorrect
+- add more satellites :)
+- try different approaches, e.g. deploy higher/lower and make a 2-burns maneuver with the satellites to reach the target orbit. This may take more fuel and time, though
+
 ### Requirements
  - `Python 3.10.9`
