@@ -1,7 +1,7 @@
 # [Satellite deploy orbit calculator](https://github.com/Booplicate/satellite-deploy-orbit-calculator) - deploying satellites has never been so easy. Almost like it's not rocket science anymore.
 
 ### Description
-A tool to calculate an orbit for deployment of N equally spread satellites in a single launch.
+A tool for calculating an orbit for deployment of N equally spread satellites in a single launch.
 
 ### Usage
 Help is available via `python stl-dpl.py -h`
